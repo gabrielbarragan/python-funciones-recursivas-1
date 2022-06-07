@@ -17,7 +17,7 @@ if __name__== '__main__':
     print(fib_recur(1) == 1)
     print(fib_recur(2) == 1)
     print(fib_recur(20) == 6765)
-    print(fib_recur(50) == 12586269025) 
+    print(fib_recur(50) == 12586269025)
 
     
     print("--- %s seconds ---" % format((time.time() - start_time),".4f"))
